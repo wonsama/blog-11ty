@@ -1,0 +1,30 @@
+{
+  "name": "blog-11ty",
+  "version": "1.0.0",
+  "description": "목표",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve --port=4000",
+    "cont": "node utils/scripts/sc_get_contents"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonsama/blog-11ty.git"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "@types/node": "^18.8.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonsama/blog-11ty/issues"
+  },
+  "homepage": "https://github.com/wonsama/blog-11ty#readme"
+}

@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# wonsama
+.DS_Store
+_sites
+package-lock.json
